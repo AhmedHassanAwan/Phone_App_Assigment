@@ -1,0 +1,315 @@
+.nav-link {
+    color: white !important;
+    margin-left: 50px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    
+}
+nav{
+    cursor: pointer;
+}
+.nav-item{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+   
+   /* Styling the login  button */
+   .login-button {
+    padding: 8px 12px;
+    background: linear-gradient(45deg, #4CAF50, #2e8b57);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  /* Hover effect */
+  .login-button:hover {
+    background: linear-gradient(45deg, #2e8b57, #4CAF50);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Active effect */
+  .login-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Styling the sign button */
+  .Signin-button {
+    padding: 8px 12px;
+    background: linear-gradient(45deg, #e20a0a, #68060e);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  /* Hover effect */
+  .Signin-button:hover {
+    background: linear-gradient(45deg, #ca0404, #631414);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Active effect */
+  .Signin-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+body{
+   background-color: rgba(0, 0, 0, 0.911) !important;
+};
+
+/* app.js */
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.cart-column {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card{
+    width: 20%;
+    background-color: #0a0a0a;
+    padding: 0px 0px 20px 0px;
+ 
+}
+
+.card-image{
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card-image img{
+    width: 100%;
+    background-color: white;
+    height: 250px;  
+}
+.content2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* cart.js */
+
+#container1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cart-column1 {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1 {
+    width: 20%;
+    background-color: #0a0a0a;
+    padding: 0px 0px 20px 0px;
+
+}
+
+.card-image1{
+    background-color: #fff;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.card-image1 img{
+    width: 100%;
+    background-color: #fff;
+    height: 250px;
+    
+}
+.content1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+.plus-minus-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.plus-minus-btn:hover {
+    background-color: #030570;
+}
+  /* deletebtn */
+  .btn-delete {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color:rgba(255, 0, 0, 0.959);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.btn-delete:hover {
+    background-color: #d62828;
+    transform: scale(1.05);
+}
+
+/* Focus effect for accessibility */
+.btn-delete:focus {
+    outline: 2px solid #ffccd5;
+}
+
+
+/* buynow */
+.btn-buy-now {
+    
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #03d35a;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.btn-buy-now:hover {
+    background-color: #e68a00;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+/* Focus effect for accessibility */
+.btn-buy-now:focus {
+    outline: 2px solid #ffd699;
+}
+
+/* checkout */
+/* Button Styling */
+.checkout-btn {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(135deg, #34d1bf, #009688); /* Aqua gradient */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 150, 136, 0.4);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  /* Button Text Hover Glow Effect */
+  .checkout-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 50px;
+  }
+  
+  .checkout-btn:hover::before {
+    opacity: 1;
+  }
+  
+  .checkout-btn:hover {
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 0 12px 20px rgba(0, 150, 136, 0.5);
+  }
+  
+  /* Active (Click) Effect */
+  .checkout-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 8px 15px rgba(0, 150, 136, 0.4);
+  }
+  
+
+   /*  Button Add to card styling */
+   .vip-btn {
+    display: inline-block;
+    padding: 08px 19px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    background-color: gold;
+    border: 2px solid gold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Hover effect */
+  .vip-btn:hover {
+    background-color: #1a1a1a;
+    color: gold;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    border-color: gold;
+  }
+
+  /* Active effect */
+  .vip-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Icon and text alignment */
+  .vip-btn .icon {
+    margin-right: 8px;
+  };
