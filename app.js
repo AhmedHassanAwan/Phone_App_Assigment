@@ -166,7 +166,8 @@ mobilePhones.map((item, index) => {
       </div>
       `;
       // <button id="addtocard" onclick="addToCart(${index})">Add to Cart</button>
-});
+    });
+    const num = document.querySelector("#num1");
 
   //add to card
 var cartitem = [];
@@ -179,6 +180,12 @@ function addToCart(index){
     cartitem[checkindex].quantity +=1
 
    }
+
+   num.innerHTML++
+   console.log(cartitem);
+   
+  // addToCart[index] =num.innerHTML
+
  
 Swal.fire({
   title: "Good job!",
@@ -195,6 +202,9 @@ function checkout(){
     localStorage.setItem("cart",arrintostr);
     window.location = "cart.html"
 }
+
+
+
 
 
 
